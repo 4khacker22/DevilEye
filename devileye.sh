@@ -1,3 +1,6 @@
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+
+sleep 1
 #!/bin/bash
 
 trap 'printf "\n";stop;exit 1' 2
